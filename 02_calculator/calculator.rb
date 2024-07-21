@@ -37,7 +37,7 @@ end
 def factorial(base)
 
   if base == 0
-    return 0
+    return 1
   end
 
   product = 1
@@ -49,5 +49,3 @@ def factorial(base)
 
   product
 end
-
-
