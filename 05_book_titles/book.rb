@@ -1,8 +1,7 @@
 # book.rb
 
 class Book
-  attr_accessor :title
-
+  attr_reader :title
   def title=(new_title)
     @title = titleize(new_title)
   end
