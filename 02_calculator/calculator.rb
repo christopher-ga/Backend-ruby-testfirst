@@ -29,9 +29,7 @@ def multiply(*vars)
 end
 
 def power(base, exponent)
-  val = 1
-  exponent.times {val *= base}
-  val
+  base ** exponent
 end
 
 def factorial(base)
