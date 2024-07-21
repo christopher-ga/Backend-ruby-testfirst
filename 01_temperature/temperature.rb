@@ -5,6 +5,5 @@ end
 
 def ctof(c_temp)
   (((c_temp) / (5.0 / 9.0)) + 32).to_i
-  puts 0.5 - 0.4 - 0.1
 end
 
